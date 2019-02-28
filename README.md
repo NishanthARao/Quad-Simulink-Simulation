@@ -7,7 +7,7 @@ https://www.wilselby.com/research/arducopter/simulation-environment/
 
 Steps:
 
-1)Download/Extract all the files into the same folder.
+1)Download files into the same folder. Thus your folder need to contain all of the above files in it.
 2)Run the init_vars.m on your Matlab console to initialise the variables.
 3)Run the Quad_sim.slx file in the 3D Quad_Joystick folder to simulate the quad without joystick.
   i)After running the Quad_sim.slx and making sure that no errors pop-up (You can increase the simulation time to >10.0 by changing it       in top box (where by default it is set to 10.0)
