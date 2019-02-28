@@ -17,11 +17,9 @@ iii)You may have to change the x, y, z axis in your simuink 3D animation.
  v)Thats it!
 4)Run the Quad_Joystick.slx file in the folder 3D Quad_Joystick the same way as mentioned above by running the init_vars.m
   i)Do note that you need to plug in a joystick that windows recognizes. Make sure you install the drivers (in most cases not needed)
- ii)Depending upon the Joystick, you may have to change the input port size, in the 'select first 3 axes' block just after the joystick block. By default it is set to 8. In my case it was 5.
+ ii)Depending upon the Joystick, you may have to change the input port size, in the 'select first 3 axes' block just after the joystick block. By default it is set to 8. In my case it was 5. PLEASE MAKE SURE THE JOYSTICK'S ANALOG BUTTON IS TURNED ON.
 iii)Again, to see the simulation, double click the VR sink block and click the play/start button.
- 
-If you are facing any issues, please feel free to contact me or leave the comments.
-nishantharao@gmail.com
+
 
 Enjoy!
 
