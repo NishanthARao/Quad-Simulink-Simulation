@@ -1,0 +1,39 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Viewpoint2 Viewpoint {
+	fieldOfView	0.785398
+	jump	TRUE
+	orientation	-0.336317 -0.941749 0  0.0314177
+	position	0 3 8.8
+}
+DEF Viewpoint1 Viewpoint {
+	fieldOfView	0.9
+	jump	TRUE
+	orientation	-0.707107 0 0.707107  0.314159
+	position	1.5 4.5 10.3
+	description	""
+}
+DEF Transform1 Transform {
+	translation	0.110746 2.70812 4.9959
+	scale	0.345469 0.345469 0.345469
+	children DEF Box Shape {
+		appearance	Appearance {
+			material	DEF Material2 Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.378601 0.284485
+				emissiveColor	0 0 0
+			}
+
+		}
+
+		geometry	DEF Box1 Box {
+			size	2 2 2
+		}
+
+	}
+}

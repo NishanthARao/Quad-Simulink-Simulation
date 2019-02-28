@@ -1,0 +1,3 @@
+plot(X.time,X.Data,X_des.Data);
+plot(Y.time,Y.Data,Y_des.Data);
+plot(Z.time,Z.Data,Z_des.Data);

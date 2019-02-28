@@ -1,0 +1,18 @@
+clc;clear;close;
+init_vars;
+warning('off','all');
+warning;
+clc;
+SimOut = sim('Quad_sim');
+subplot(2,3,1);
+plot(X,'color','r');xlabel('t');ylabel('X');
+subplot(2,3,2);
+plot(Y,'color','g');xlabel('t');ylabel('Y');
+subplot(2,3,3);
+plot(Z,'color','b');xlabel('t');ylabel('Z');
+subplot(2,3,4);
+plot(phi,'color','r');xlabel('t');ylabel('phi');
+subplot(2,3,5);
+plot(theta,'color','g');xlabel('t');ylabel('theta');
+subplot(2,3,6);
+plot(psi,'color','b');xlabel('t');ylabel('psi');
