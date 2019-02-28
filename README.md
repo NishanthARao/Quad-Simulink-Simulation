@@ -8,7 +8,7 @@ https://www.wilselby.com/research/arducopter/simulation-environment/
 Steps:
 
 1)Download files into the same folder say, "Quad_folder". Thus your "Quad_folder" need to contain all of the above files in it.
-Go to Necessary Files.zip where you will find three folders. Extract these three folders into the "Quad_folder" itself. This is important as two of the three folders contains textures and animation related files in it.
+Go to Necessary Files.zip where you will find three folders. Extract these three folders into the "Quad_folder" itself. This is important as two of the three folders contains textures and animation related files in it. NOw your "Quad_folder" needs to have three folders + above files that you downloaded.
 
 2)Run the init_vars.m on your Matlab console to initialise the variables.
 
