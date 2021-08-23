@@ -1,6 +1,6 @@
 # Quad-Simulink-Simulation
 This is a simulink based Quad-copter simulation. Play around!
-This model is the improved and corrected version of the Wilselby's simulink model, who has done a great work and research. However, in the position control block he hasnt implemented the conversion of GF -> BF which can lead to errors when x_des, y_des and z_des are big, and the simulation time increased.
+This model is the improved and corrected version of the Wilselby's simulink model, who has done a great work and research.
 
 Here is the website:
 https://www.wilselby.com/research/arducopter/simulation-environment/
